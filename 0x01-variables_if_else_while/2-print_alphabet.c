@@ -12,5 +12,6 @@ int main(void)
 
 	for (CC = 'a'; CC <= 'z'; CC++)
 	putchar(CC);
+	putchar('\n');
 	return (0);
 }
