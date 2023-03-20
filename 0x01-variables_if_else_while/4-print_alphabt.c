@@ -14,6 +14,7 @@ int main(void)
 		if (SH != 'q' && SH != 'p')
 		{
 			putchar(SH);
+			putchar('\n');
 		}
 	return (0);
 }
