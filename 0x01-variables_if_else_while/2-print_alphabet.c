@@ -11,6 +11,6 @@ int main(void)
 	char f;
 
 	for (f = 'a'; f <= 'z'; ++f)
-		printf("%c\n", f);
+	putchar(f);
 	return (0);
 }
